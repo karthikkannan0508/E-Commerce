@@ -121,8 +121,11 @@ body {
     position: absolute; 
     bottom: -4px;
     left: 20px;
+}
 
-
+#mobile {
+  display: none;
+  align-items: center;
 }
 
 
@@ -558,5 +561,16 @@ footer .copyright {
 
   #navbar li{
     margin-bottom: 25px;
+  }
+
+  #mobile {
+    display: flex;
+    align-items: center;
+  }
+
+  #mobile i {
+    color: #1a1a1a;
+    font-size: 24px;
+    padding-left: 20px;
   }
 }
